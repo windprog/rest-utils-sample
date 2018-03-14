@@ -1,0 +1,6 @@
+alembic
+Rest-Utils
+flask_sqlalchemy
+mysqlclient
+pytest
+pytest-cov

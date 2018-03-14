@@ -1,0 +1,9 @@
+[run]
+omit =
+    tests/*
+    stuff/*
+
+source = api
+
+[html]
+directory = stuff/report/
