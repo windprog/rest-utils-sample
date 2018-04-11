@@ -7,6 +7,7 @@ E-mail  :   windprog@gmail.com
 Date    :   2018/3/14
 Desc    :   
 """
+import common
 from flask import request
 from rest_utils.schema import default_create, default_update
 from rest_utils.exception import PermissionDenied

@@ -3,12 +3,11 @@
 
 """
 Author  :   windpro
-E-mail  :   zzn1889@corp.netease.com
+E-mail  :   windprog@gmail.com
 Date    :   15/10/30
 Desc    :   
 """
 import common
-import os
 from flask import Flask
 from rest_utils import APIManager
 
@@ -44,7 +43,11 @@ def create_app():
 
 
 def init_app(app):
+    from user_api import register_user_api
+    # 注册框架api
     register_api(app)
+    # 注册自定义api
+    register_user_api()
 
 
 def create_sql():

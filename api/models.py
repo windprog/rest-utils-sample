@@ -3,11 +3,10 @@
 
 """
 Author  :   windpro
-E-mail  :   zzn1889@corp.netease.com
+E-mail  :   windprog@gmail.com
 Date    :   16/10/17
 Desc    :
 """
-import common
 import datetime
 from flask_sqlalchemy import SQLAlchemy
 

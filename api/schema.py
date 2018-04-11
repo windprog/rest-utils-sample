@@ -7,6 +7,7 @@ E-mail  :   windprog@gmail.com
 Date    :   2018/3/14
 Desc    :   
 """
+import common
 import random
 from rest_utils import ModelSchema
 from rest_utils import fields
